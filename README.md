@@ -1,27 +1,27 @@
 # CourseWeb
+Esta aplicación está construida con angular y tailwind.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+Funcionalmente se puede crear, editar, eliminar y consultar cursos.
 
-## Development server
+## Requisitos previos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Programas
+1. [x] Node https://nodejs.org/es/
+2. [x] GIT https://git-scm.com/
 
-## Code scaffolding
+### Versiones
+1. [x] Node v14.20.1npm
+2. [x] Npm v6.14.17
+3. [x] Angular v14.2.12
+4. [x] Angular cli v14.2.10
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalación
+1. [x] Descargar el repositorio de https://github.com/luissantaospina/course-web con el comando `git clone https://github.com/luissantaospina/course-web`
+2. [x] Moverse a la carpeta del proyecto `cd course-web`
+3. [x] Instalar dependencias `npm install`
+4. [x] Configurar la url base donde esta corriendo el backend para permitir la comunicación entre ambos, esto se realiza en el archivo `src/environments/environment.ts` y se cambia la variable `baseUrl` colocando la url del backend. Solo debe cambiar o reemplazar `http://127.0.0.1:8000`
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Inicio
+1. [x] Iniciar aplicación `ng serve`
+2. [x] Generalmente se despliega en http://localhost:4200/ (verificar puesto que esto puede cambiar)
