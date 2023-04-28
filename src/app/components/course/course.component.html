@@ -77,3 +77,10 @@
   (confirmDeletion) = "confirmDeletion($event)"
 >
 </app-course-delete>
+
+<app-course-create
+  *ngIf="createModalActive"
+  (confirmCreation) = "confirmCreation()"
+>
+</app-course-create>
+
