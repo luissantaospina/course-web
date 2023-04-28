@@ -84,3 +84,9 @@
 >
 </app-course-create>
 
+<app-course-update
+  *ngIf="updateModalActive"
+  [courseId] = "selectedCourse"
+  (confirmUpdate) = "confirmUpdate()"
+>
+</app-course-update>
