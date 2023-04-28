@@ -70,3 +70,10 @@
     </tbody>
   </table>
 </div>
+
+<app-course-delete
+  *ngIf="deleteModalActive"
+  [modalTitle] = "'¿Estás seguro de eliminar el curso?'"
+  (confirmDeletion) = "confirmDeletion($event)"
+>
+</app-course-delete>
