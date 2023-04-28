@@ -25,3 +25,9 @@ Funcionalmente se puede crear, editar, eliminar y consultar cursos.
 ## Inicio
 1. [x] Iniciar aplicación `ng serve`
 2. [x] Generalmente se despliega en http://localhost:4200/ (verificar puesto que esto puede cambiar)
+
+
+## Vista previa
+![list.png](src%2Fassets%2Flist.png)
+![create.png](src%2Fassets%2Fcreate.png)
+![delete.png](src%2Fassets%2Fdelete.png)
